@@ -4,102 +4,97 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Endrex Martin Akoto - Portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
-<body class="font-roboto bg-gray-100 text-gray-900">
+<body>
 
     <!-- Header Section -->
-    <header class="bg-gray-800 text-white py-6">
-        <h1 class="text-4xl font-playfair text-center">Endrex Martin Akoto</h1>
-        <nav class="mt-4 text-center">
-            <ul class="flex justify-center space-x-8">
-                <li><a href="#about" class="hover:text-pink-500">About</a></li>
-                <li><a href="#skills" class="hover:text-pink-500">Skills</a></li>
-                <li><a href="#projects" class="hover:text-pink-500">Projects</a></li>
-                <li><a href="#contact" class="hover:text-pink-500">Contact</a></li>
+    <header class="header">
+        <h1 class="header-title">Endrex Martin Akoto</h1>
+        <nav class="navbar">
+            <ul class="nav-list">
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <!-- About Section -->
-    <section id="about" class="py-12 px-4 bg-gray-50">
-        <h2 class="text-3xl font-playfair text-center text-gray-800">About Me</h2>
-        <p class="mt-6 max-w-2xl mx-auto text-center text-lg">I am a passionate front-end developer with skills in HTML, CSS, JavaScript, and React. I enjoy building dynamic and responsive websites.</p>
+    <section id="about" class="section">
+        <div class="section-content">
+            <h2>About Me</h2>
+            <p>Hi, I'm Endrex Martin Akoto, a Full Stack Software Engineer specializing in front-end development, based in Nairobi, Kenya...</p>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <div class="section-content">
+            <h2>Education</h2>
+            <ul>
+                <li><strong>Certificate in Ai Career Essentials</strong>, ALX Africa (Jun 2024 - Present)</li>
+                <li><strong>Certificate in Full Stack Software Engineering</strong>, ALX Africa (Feb 2023 - Apr 2024)</li>
+                <li><strong>Diploma in Information Technology</strong>, Jomo Kenyatta University of Agriculture and Technology (Sep 2016 - Dec 2018)</li>
+            </ul>
+        </div>
     </section>
 
     <!-- Skills Section -->
-    <section id="skills" class="py-12 px-4 bg-white">
-        <h2 class="text-3xl font-playfair text-center text-gray-800">Skills</h2>
-        <ul class="mt-8 flex justify-center space-x-8">
-            <li class="bg-gray-200 p-6 rounded-lg shadow-md text-center">
-                <i class="fas fa-code text-2xl text-gray-700"></i>
-                <p class="mt-4">HTML</p>
-            </li>
-            <li class="bg-gray-200 p-6 rounded-lg shadow-md text-center">
-                <i class="fab fa-css3-alt text-2xl text-blue-600"></i>
-                <p class="mt-4">CSS</p>
-            </li>
-            <li class="bg-gray-200 p-6 rounded-lg shadow-md text-center">
-                <i class="fab fa-js-square text-2xl text-yellow-500"></i>
-                <p class="mt-4">JavaScript</p>
-            </li>
-            <li class="bg-gray-200 p-6 rounded-lg shadow-md text-center">
-                <i class="fab fa-python text-2xl text-green-500"></i>
-                <p class="mt-4">Python</p>
-            </li>
-        </ul>
+    <section id="skills" class="section">
+        <div class="section-content">
+            <h2>Skills</h2>
+            <div class="skills-icons">
+                <i class="fab fa-html5"></i>
+                <i class="fab fa-css3-alt"></i>
+                <i class="fab fa-js-square"></i>
+                <i class="fab fa-python"></i>
+            </div>
+        </div>
     </section>
 
     <!-- Projects Section -->
-    <section id="projects" class="py-12 px-4 bg-gray-50">
-        <h2 class="text-3xl font-playfair text-center text-gray-800">Projects</h2>
-        <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-            <div class="relative overflow-hidden rounded-lg shadow-lg">
-                <img src="project1-thumbnail.jpg" alt="Project 1" class="w-full object-cover hover:scale-110 transform transition">
-                <div class="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-4">
-                    <h3 class="text-xl">Project 1: Social Network Platform</h3>
-                    <p class="mt-2">A social networking platform with real-time updates, notifications, and privacy settings.</p>
-                </div>
-            </div>
-            <div class="relative overflow-hidden rounded-lg shadow-lg">
-                <img src="project2-thumbnail.jpg" alt="Project 2" class="w-full object-cover hover:scale-110 transform transition">
-                <div class="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-4">
-                    <h3 class="text-xl">Project 2: E-Commerce Website</h3>
-                    <p class="mt-2">An e-commerce platform with an intuitive user interface and seamless shopping experience.</p>
+    <section id="projects" class="section">
+        <div class="section-content">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <div class="project-item">
+                    <img src="project1-thumbnail.jpg" alt="Project 1">
+                    <div class="project-info">
+                        <h3>Project 1: Social Network Platform</h3>
+                        <p>A social networking platform with real-time updates, notifications, and privacy settings.</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="py-12 px-4 bg-white">
-        <h2 class="text-3xl font-playfair text-center text-gray-800">Contact Me</h2>
-        <form class="mt-8 max-w-lg mx-auto bg-gray-100 p-6 rounded-lg shadow-lg">
-            <div class="mb-4">
-                <label for="name" class="block text-lg">Name</label>
-                <input type="text" id="name" class="w-full p-2 border border-gray-300 rounded-lg focus:outline-none focus:border-pink-500">
-            </div>
-            <div class="mb-4">
-                <label for="email" class="block text-lg">Email</label>
-                <input type="email" id="email" class="w-full p-2 border border-gray-300 rounded-lg focus:outline-none focus:border-pink-500">
-            </div>
-            <div class="mb-4">
-                <label for="message" class="block text-lg">Message</label>
-                <textarea id="message" class="w-full p-2 border border-gray-300 rounded-lg focus:outline-none focus:border-pink-500"></textarea>
-            </div>
-            <button type="submit" class="w-full bg-pink-500 text-white py-2 rounded-lg hover:bg-pink-600 transition">Send</button>
-        </form>
+    <section id="contact" class="section">
+        <div class="section-content">
+            <h2>Contact Me</h2>
+            <form action="mailto:martinakoto25@gmail.com" method="post" enctype="text/plain">
+                <input type="text" name="name" placeholder="Your Name">
+                <input type="email" name="email" placeholder="Your Email">
+                <textarea name="message" placeholder="Your Message"></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
     </section>
 
     <!-- Footer -->
-    <footer class="py-6 bg-gray-800 text-white text-center">
-        <p>© 2024 Endrex Martin Akoto. All rights reserved.</p>
-        <div class="mt-4">
-            <a href="https://github.com/your-github" target="_blank" class="mx-2"><i class="fab fa-github text-2xl"></i></a>
-            <a href="https://linkedin.com/in/your-linkedin" target="_blank" class="mx-2"><i class="fab fa-linkedin text-2xl"></i></a>
+    <footer class="footer">
+        <div class="social-media">
+            <a href="https://github.com/EndrexAkoto" target="_blank"><img src="github-icon.png" alt="GitHub"></a>
+            <a href="https://www.linkedin.com/in/endrex-akoto-02184b203/" target="_blank"><img src="linkedin-icon.png" alt="LinkedIn"></a>
+            <a href="https://x.com/martinakoto25" target="_blank"><img src="twitter-icon.png" alt="X"></a>
+            <a href="mailto:martinakoto25@gmail.com"><img src="email-icon.png" alt="Email"></a>
         </div>
+        <p>© 2024 Endrex Martin Akoto. All rights reserved.</p>
     </footer>
 
 </body>
