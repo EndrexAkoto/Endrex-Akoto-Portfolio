@@ -27,13 +27,6 @@ Why This Portfolio?
 This portfolio serves as a personal hub for anyone interested in learning more about me, my skills, and my work. It's designed with simplicity and functionality in mind, ensuring visitors get all the information they need in a visually appealing format.
 
 I am always eager to collaborate on exciting new projects, so feel free to explore my portfolio and connect with me if you'd like to work together or have any questions.
-Contact Information
 
-If you'd like to connect, please reach out via:
-
-    Email: martinakoto25@gmail.com
-    GitHub: EndrexAkoto
-    LinkedIn: Endrex Martin Akoto
-    Twitter (X): @martinakoto25
 
 Thank you for visiting!
